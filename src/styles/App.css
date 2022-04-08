@@ -1,0 +1,62 @@
+:root {
+  --main-bg-color: #000000;
+  --secondary-bg-color: #14213D;
+  --terciary-fg-color: #FCA311;
+  --secondary-fg-color: #E5E5E5;
+  --main-fg-color: #FFFFFF;
+}
+
+.App {
+  text-align: center;
+  color: var(--main-fg-color);
+  background-color: var(--main-bg-color);
+}
+
+.landing, .portfolio, .contact {
+  min-height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 10vw;
+  padding-top: 40vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: var(--terciary-fg-color);
+}
+
+.link-button, img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

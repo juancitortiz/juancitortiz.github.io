@@ -1,0 +1,14 @@
+.portfolio {
+    padding: 5vh 15vw;
+}
+
+.portfolio-main {
+    padding-bottom: 10vh;
+}
+.portfolio-title {
+    font-size: 5vw;
+}
+.portfolio-paragraph {
+    color: var(--secondary-fg-color)
+}
+

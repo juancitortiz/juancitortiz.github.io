@@ -1,4 +1,6 @@
+import Card from '../components/Card';
 import './../styles/Portfolio.css';
+import data from './../projects.json';
 
 function Portfolio() {
   return(
@@ -9,7 +11,9 @@ function Portfolio() {
           both in collaboration with other people and on my own as well.</p>
       </div>
       <div className="portfolio-cards">
-        cards
+        <Card content={data.projects[0]}/>
+        <Card content={data.projects[1]}/>
+        <Card content={data.projects[2]}/>
       </div>
     </section>
   );

@@ -1,17 +1,17 @@
+.landing {
+  background-color: var(--secondary-bg-color)
+}
+
 .landing-main {
   padding: 30vh 20vw;
   text-align: left;
 }
 
 .title {
-  font-size: 7vw;
-}
-.name {
-  color: var(--secondary-fg-color);
-  background-color: var(--secondary-bg-color);
+  font-size: 5.5vw;
 }
 .landing-paragraph {
-  padding: 0vh 15vw;
+  padding: 0vh 15vw 9vh;
   text-align: left;
   color: var(--secondary-fg-color)
 }

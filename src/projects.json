@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "name": "Exorsite",
+            "description": "RTS and TPS Unity game, currently in development. My role in this project has been mainly as a backend programmer. Fixing bugs, code maintenance and implementing some mechanics as well.\nWe have a demo in Itch.io if you wanna try!",
+            "image": {
+                "src": "./assets/projectsImages/exorsite.png",
+                "href": "https://img.itch.zone/aW1nLzQxNjgzNjQucG5n/347x500/5nnXEH.png",
+                "alt": "Pic of Exorsite"
+            },
+            "href": "https://grupocomando.itch.io/exorsite"
+        },
+        {
+            "name": "Catball",
+            "description": "Game developed in Unity for the Global Game Jam 2022. Great personal experience and great people I met here. My role in this project was as lead programmer and the only member with experience in Unity, which at the time was quite a challenge for me. \nClick if you want to see more!",
+            "image": {
+                "src": "./assets/projectsImages/catball.png",
+                "href": "https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/featured_image/2022/01/455300/main_menu_catballl_1.png?itok=9FHZwU8D&timestamp=1643575080",
+                "alt": "Pic of Catball"
+            },
+            "href": "https://globalgamejam.org/2022/games/catball-1"
+        },
+        {
+            "name": "Is not Asteroids",
+            "description": "Little game developed with Phaser3 by myself. Its a PC only browser game, so if you wish to check it out, click me!",
+            "image": {
+                "src": "./assets/projectsImages/",
+                "href": "https://img.itch.zone/aW1nLzQxNjgzNjQucG5n/347x500/5nnXEH.png",
+                "alt": "Pic of Is not Asteroids"
+            },
+            "href": "https://juancitortiz.github.io/isnotasteroids/"
+        }
+    ]
+}

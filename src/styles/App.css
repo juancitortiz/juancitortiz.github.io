@@ -34,6 +34,12 @@
 .link-button, img {
   width: 2rem;
   height: 2rem;
+  border-radius: 5px;
+}
+.link-button:hover {
+  background-color: var(--secondary-fg-color);
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
 }
 
 .App-header {
@@ -45,6 +51,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.highlight {
+  color: var(--terciary-fg-color);
 }
 
 @media (prefers-reduced-motion: no-preference) {

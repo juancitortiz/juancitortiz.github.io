@@ -18,6 +18,30 @@
 
 .contact-send-email-button:hover {
     border-color: var(--terciary-fg-color);
-    background-color: var(--secondary-bg-color);;
+    background-color: var(--secondary-bg-color);
     transition: 300ms;
 }
+
+.contact-mobile {
+    max-width: max-content;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 2vh 2vw;
+    border-radius: 15px;
+    background-color: var(--terciary-fg-color);
+    display: none;
+    gap: 2rem;
+}
+
+@media (max-width: 926px) {
+    .contact-mobile {
+      display: flex;
+    }
+  }
+  @media (min-width: 927px) {
+    .contact-mobile {
+      display: none;
+    }
+  }

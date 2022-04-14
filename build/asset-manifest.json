@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fa2ceeb.css",
+    "main.js": "/static/js/main.44d734fa.js",
+    "static/media/Twitter.svg": "/static/media/Twitter.520e0d0f59afc8585123a0dbfd327cc2.svg",
+    "static/media/Github.svg": "/static/media/Github.e21209f267368a1bd7975dab65fcd209.svg",
+    "static/media/Gmail.svg": "/static/media/Gmail.33a78295f8d77a99449e837cea7dae9e.svg",
+    "static/media/Linkedin.svg": "/static/media/Linkedin.c4755aad1e10919de0850788ba010fc9.svg",
+    "index.html": "/index.html",
+    "main.2fa2ceeb.css.map": "/static/css/main.2fa2ceeb.css.map",
+    "main.44d734fa.js.map": "/static/js/main.44d734fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fa2ceeb.css",
+    "static/js/main.44d734fa.js"
+  ]
+}

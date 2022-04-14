@@ -1,0 +1,23 @@
+.contact-title {
+    padding-top: 30vh;
+    font-size: calc(1vh + 5vw);
+}
+.contact-paragraph {
+    color: var(--secondary-fg-color);
+    margin-bottom: 10vh;
+}
+.contact-send-email-button {
+    padding: 2vh 2vw;
+    border-style: ridge;
+    border-color: var(--secondary-fg-color);
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--main-fg-color);
+    background-color: none;
+}
+
+.contact-send-email-button:hover {
+    border-color: var(--terciary-fg-color);
+    background-color: var(--secondary-bg-color);;
+    transition: 300ms;
+}

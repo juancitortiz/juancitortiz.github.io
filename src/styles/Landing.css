@@ -8,7 +8,7 @@
 }
 
 .title {
-  font-size: 5.5vw;
+  font-size: calc(1vh + 7vw);
 }
 .landing-paragraph {
   padding: 0vh 15vw 9vh;

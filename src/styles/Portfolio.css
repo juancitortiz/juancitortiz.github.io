@@ -6,7 +6,7 @@
     padding-bottom: 10vh;
 }
 .portfolio-title {
-    font-size: 5vw;
+    font-size: calc(1vh + 5vw);
 }
 .portfolio-paragraph {
     color: var(--secondary-fg-color)
@@ -26,24 +26,22 @@
     border-style: ridge;
     border-color: var(--secondary-fg-color);
     background-color: var(--secondary-bg-color);
+    text-decoration: none;
 }
 .card-container:hover {
     border-color: var(--terciary-fg-color);
     transition: 300ms;
-}
-.card-link {
-    text-decoration: none;
-    color: var(--secondary-fg-color);    
 }
 .card-image {
     min-width: 20vw;
     height: auto;
 }
 .card-title {
-
+    font-size: calc(1vh + 2vw);
+    color: var(--main-fg-color);
 }
 .card-description {
-
+    color: var(--secondary-fg-color);
 }
 
 @media (max-width: 700px) {

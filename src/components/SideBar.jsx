@@ -9,26 +9,22 @@ function SideBar() {
   const githubButton = {
     href: 'https://github.com/juancitortiz',
     src: githubLogo,
-    alt: 'Github Icon',
-    email: false
+    alt: 'Github Icon'
   }
   const linkedinButton = {
     href: 'https://www.linkedin.com/in/juan-ignacio-ortiz-innocenti-37a6851a4/',
     src: linkedinLogo,
-    alt: 'LinkedIn Icon',
-    email: false
+    alt: 'LinkedIn Icon'
   }
   const gmailButton = {
-    href: 'juanitolaguna1993@gmail.com',
+    href: 'mailto:juanitolaguna1993@gmail.com',
     src: gmailLogo,
-    alt: 'Gmail Icon',
-    email: true
+    alt: 'Gmail Icon'
   }
   const twitterButton = {
     href: 'https://twitter.com/JuanIgn04469126',
     src: twitterLogo,
-    alt: 'Twitter Icon',
-    email: false
+    alt: 'Twitter Icon'
   }
 
   return(

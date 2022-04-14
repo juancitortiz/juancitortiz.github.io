@@ -9,7 +9,7 @@ function Landing() {
       </div>
       <div className="landing-paragraph">
         <p>Hello! My name is Juan and I'm a Game Developer from Argentina. 
-          Before I got hooked on programming and game development, I moved through the arts world as a musician.<br/>
+          Before I got hooked on programming and game development, I roamed through the arts world as a musician.<br/>
           I've been mainly working on an indie game called Exorsite since 2020 and also 
           participated in the Global Game Jam 2022 in February of the same year.
           I'm currently finishing my studies as a Programming Technician.

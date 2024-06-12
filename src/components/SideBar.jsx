@@ -2,7 +2,7 @@ import LinkButton from "./LinkButton";
 import githubLogo from './../assets/Github.svg';
 import linkedinLogo from './../assets/Linkedin.svg';
 import gmailLogo from './../assets/Gmail.svg';
-import twitterLogo from './../assets/Twitter.svg';
+import gitlabLogo from './../assets/Gitlab.svg';
 
 function SideBar() {
 
@@ -21,17 +21,17 @@ function SideBar() {
     src: gmailLogo,
     alt: 'Gmail Icon'
   }
-  const twitterButton = {
-    href: 'https://twitter.com/JuanIgn04469126',
-    src: twitterLogo,
-    alt: 'Twitter Icon'
+  const gitlabButton = {
+    href: 'https://gitlab.com/juanitolaguna1993',
+    src: gitlabLogo,
+    alt: 'Gitlab Icon'
   }
 
   return(
     <nav className="sidebar">
-      <LinkButton params={githubButton} />
+      <LinkButton params={gitlabButton} />
       <LinkButton params={linkedinButton} />
-      <LinkButton params={twitterButton} />
+      <LinkButton params={githubButton} />
       <LinkButton params={gmailButton} />
     </nav>
   );

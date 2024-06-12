@@ -7,7 +7,7 @@ function Card(content) {
             <a className="card-container" href={content.content.href} target="_blank">
                 <img 
                     className="card-image" 
-                    src={content.content.image.href} 
+                    src={process.env.PUBLIC_URL + content.content.image.src} 
                     alt={content.content.image.alt}
                 />
                 <p className="card-title">{content.content.name}</p>

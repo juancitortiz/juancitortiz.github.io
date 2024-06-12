@@ -5,7 +5,6 @@
             "description": "RTS and TPS Unity game, currently in development. My role in this project has been mainly as a backend programmer. Fixing bugs, code maintenance and implementing some mechanics as well.\nWe have a demo in Itch.io if you wanna try!",
             "image": {
                 "src": "./assets/projectsImages/exorsite.png",
-                "href": "https://img.itch.zone/aW1nLzQxNjgzNjQucG5n/347x500/5nnXEH.png",
                 "alt": "Pic of Exorsite"
             },
             "href": "https://grupocomando.itch.io/exorsite"
@@ -24,7 +23,7 @@
             "name": "Is not Asteroids",
             "description": "Little game developed with Phaser3 by myself. Its a PC only browser game, so if you wish to check it out, click me!",
             "image": {
-                "src": "./assets/projectsImages/",
+                "src": "./assets/projectsImages/is_not_asteroids.png",
                 "href": "https://drive.google.com/uc?export=view&id=13wjeK8Lhx9E-SIt4PYnRghlvKkU-dHhN",
                 "alt": "Pic of Is not Asteroids"
             },

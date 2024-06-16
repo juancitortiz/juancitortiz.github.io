@@ -1,7 +1,7 @@
 
 
 function Card(content) {
-    console.log("content: ", content.content.image.src);
+    //console.log("content: ", content.content.image.src);
     return (
         <>
             <a className="card-container" href={content.content.href} target="_blank">

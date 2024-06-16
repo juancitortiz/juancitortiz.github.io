@@ -6,7 +6,6 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^6.1.1",
     "openssl": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -39,5 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://juancitortiz.github.io"
+  "homepage": "https://juancitortiz.github.io",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }

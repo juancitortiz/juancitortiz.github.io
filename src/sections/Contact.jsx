@@ -2,11 +2,16 @@ import LinkButton from "./../components/LinkButton";
 import githubLogo from './../assets/Github.svg';
 import linkedinLogo from './../assets/Linkedin.svg';
 import gmailLogo from './../assets/Gmail.svg';
-import twitterLogo from './../assets/Twitter.svg';
+import gitlabLogo from './../assets/Gitlab.svg';
 import "./../styles/Contact.css";
 
 function Contact() {
 
+  const gitlabButton = {
+    href: 'https://gitlab.com/juanitolaguna1993',
+    src: gitlabLogo,
+    alt: 'Gitlab Icon'
+  }
   const githubButton = {
     href: 'https://github.com/juancitortiz',
     src: githubLogo,
@@ -22,11 +27,6 @@ function Contact() {
     src: gmailLogo,
     alt: 'Gmail Icon'
   }
-  const twitterButton = {
-    href: 'https://twitter.com/JuanIgn04469126',
-    src: twitterLogo,
-    alt: 'Twitter Icon'
-  }
 
   return(
     <section className="contact">
@@ -34,11 +34,12 @@ function Contact() {
         <h2 className="contact-title">Contact</h2>
         <p className="contact-paragraph">If you are interested in contacting me, I'm always open to chat.</p>
         <a className="contact-send-email-button" href="mailto:juanitolaguna1993@gmail.com">Say Hi to Juan!</a>
+        <a className="contact-send-email-button" href="https://drive.google.com/uc?export=download&id=1tZVdXFufUZuTBxh6F5Vdmue2mHJr1gMz">My resume</a>
       </div>
       <div className="contact-mobile">
+        <LinkButton params={gitlabButton} />
         <LinkButton params={githubButton} />
         <LinkButton params={linkedinButton} />
-        <LinkButton params={twitterButton} />
         <LinkButton params={gmailButton} />
       </div>
     </section>

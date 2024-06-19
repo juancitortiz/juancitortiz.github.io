@@ -6,6 +6,11 @@ import gitlabLogo from './../assets/Gitlab.svg';
 
 function SideBar() {
 
+  const gitlabButton = {
+    href: 'https://gitlab.com/juanitolaguna1993',
+    src: gitlabLogo,
+    alt: 'Gitlab Icon'
+  }
   const githubButton = {
     href: 'https://github.com/juancitortiz',
     src: githubLogo,
@@ -20,11 +25,6 @@ function SideBar() {
     href: 'mailto:juanitolaguna1993@gmail.com',
     src: gmailLogo,
     alt: 'Gmail Icon'
-  }
-  const gitlabButton = {
-    href: 'https://gitlab.com/juanitolaguna1993',
-    src: gitlabLogo,
-    alt: 'Gitlab Icon'
   }
 
   return(

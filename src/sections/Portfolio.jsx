@@ -14,6 +14,7 @@ function Portfolio() {
         <Card content={data.projects[0]}/>
         <Card content={data.projects[1]}/>
         <Card content={data.projects[2]}/>
+        <Card content={data.projects[3]}/>
       </div>
     </section>
   );

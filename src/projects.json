@@ -2,16 +2,26 @@
     "projects": [
         {
             "name": "Exorsite",
-            "description": "RTS and TPS Unity game, currently in development. My role in this project has been mainly as a backend programmer. Fixing bugs, code maintenance and implementing some mechanics as well.\nWe have a demo in Itch.io if you wanna try!",
+            "description": "RTS and TPS Unity game, currently in development. My role in this project has been mainly as a backend programmer. Fixing bugs, code maintenance and implementing some mechanics as well. \nYou can check out the Steam page if interested.",
             "image": {
-                "src": "./assets/projectsImages/exorsite.png",
+                "src": "./assets/projectsImages/exorsite.jpg",
                 "alt": "Pic of Exorsite"
             },
-            "href": "https://grupocomando.itch.io/exorsite"
+            "href": "https://store.steampowered.com/app/2257940/Exorsite/"
+        },
+        {
+            "name": "Arcane Spark",
+            "description": "Unleash your elemental fury in Arcane Spark, the ultimate competitive magic combat game! Choose from the four classical elements - Earth, Fire, Water, and Air - each with its unique strengths and weaknesses, and engage in thrilling free-for-all battles against other players.",
+            "image": {
+                "src": "./assets/projectsImages/arcane_spark.jpg",
+                "href": "https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/featured_image/2022/01/455300/main_menu_catballl_1.png?itok=9FHZwU8D&timestamp=1643575080",
+                "alt": "Pic of Arcane Spark"
+            },
+            "href": "https://store.steampowered.com/app/3136450/Arcane_spark/"
         },
         {
             "name": "Catball",
-            "description": "Game developed in Unity for the Global Game Jam 2022. Great personal experience and great people I met here. My role in this project was as lead programmer and the only member with experience in Unity, which at the time was quite a challenge for me. \nClick if you want to see more!",
+            "description": "Game developed in Unity for the Global Game Jam 2022. Great personal experience and great people I met there. My role in this project was as lead programmer and the only member with experience in Unity, which at the time was quite a challenge for me. \nClick if you want to see more!",
             "image": {
                 "src": "./assets/projectsImages/catball.png",
                 "href": "https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/featured_image/2022/01/455300/main_menu_catballl_1.png?itok=9FHZwU8D&timestamp=1643575080",

@@ -11,7 +11,7 @@ function App() {
       <Landing />
       <Portfolio />
       <Contact />
-      <footer>Designed and Built by Juan Ignacio Ortiz Innocenti 2024</footer>
+      <footer>Designed and Built by Juan Ignacio Ortiz Innocenti 2025</footer>
     </div>
   );
 }

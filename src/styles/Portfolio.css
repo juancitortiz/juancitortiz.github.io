@@ -22,7 +22,7 @@
 }
 .card-container {
     max-width: 25vw;
-    padding: 0vh 2vw;
+    padding: 4vh 3vw;
     border-style: ridge;
     border-color: var(--secondary-fg-color);
     background-color: var(--secondary-bg-color);
